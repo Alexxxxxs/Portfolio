@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('fond3.jpg');
+  background-size: cover;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-image: url('bande.jpg');
+}
+
+.grosseboite {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  height: 600px;
+}
+
+.petiteboite {
+  width: 30%;
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px black;
+  transition: transform 0.5s, height 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.petiteboite:hover {
+  transform: scale(1.1);
+}
+
+.petiteboite img {
+  width: 45%;
+  border-radius: 20px;
+}
+
+h3, p {
+  text-align: center;
+  padding: 2%;
+  color: white;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+h2 {
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+footer {
+  text-align: center;
+  background-image: url('bande.jpg');
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

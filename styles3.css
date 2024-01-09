@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('fond3.jpg');
+  background-size: 100%;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-image: url('bande.jpg');
+}
+
+.bouton {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(10, 144, 233);
+  border-radius: 10px;
+  padding: 10px;
+}
+  
+.bouton:hover {
+  background-color:#00ecb1; 
+}
+
+.grosseboite {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 0 30px black;
+  border-radius: 15px; 
+  width: 80%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(10, 144, 233);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00ecb1;
+}
+
+h2 {
+  text-align: center;
+  padding: 2%;
+}
+
+footer {
+  text-align: center;
+  background-image: url('bande.jpg');
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
