@@ -2,6 +2,7 @@ header {
   text-align: center;
   padding: 20px;
   background-image: url('bande.jpg');
+  width: 100%;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 2%;
-  height: 600px;
+  height: 100%;
 }
 
 .petiteboite {
@@ -61,5 +62,5 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 100%;
+  height: 15%;
 }
